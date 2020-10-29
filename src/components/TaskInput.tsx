@@ -12,7 +12,7 @@ const TaskInput: React.FC<Props> = ({ setTasks, tasks}) => {
 
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) =>{
-        setInputTitle(e.Target.value)
+        setInputTitle(e.target.value)
     }
 
     const handleSubmit = () =>{
